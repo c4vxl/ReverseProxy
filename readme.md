@@ -13,8 +13,8 @@ This Bash script allows you to set up a reverse proxy using Nginx, with options 
 - Port to listen to: The port on which the reverse proxy should listen.
 - Type:
     - [1] HTTP: Configure a basic HTTP reverse proxy.
-    - [2] HTTPS: Configure an HTTPS reverse proxy.
-      When using this, you don't need to setup an ssl certificate on your Web-Server. In fact this will break the connection!
+    - [2] HTTPS: Configure an HTTPS reverse proxy.<br>
+      When using this, you don't have to setup an ssl certificate on your Web-Server. In fact this will break the connection!
     - [3] STREAM: Configure a stream reverse proxy.
 
 
